@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/Mireb-commercial-B2B',
-  assetPrefix: '/Mireb-commercial-B2B',
+  // Configuration pour GitHub Pages
+  basePath: process.env.NODE_ENV === 'production' ? '/Mireb-commercial-B2B' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Mireb-commercial-B2B' : '',
 }
 
 module.exports = nextConfig
