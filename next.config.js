@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  output: 'export',
+  trailingSlash: true,
   images: {
-    domains: ['localhost'],
+    unoptimized: true,
   },
+  basePath: '/Mireb-commercial-B2B',
+  assetPrefix: '/Mireb-commercial-B2B',
 }
 
 module.exports = nextConfig
