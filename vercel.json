@@ -1,0 +1,20 @@
+{
+  "name": "mireb-commercial-b2b",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_APP_NAME": "Mireb Commercial B2B",
+    "NEXT_PUBLIC_APP_VERSION": "1.0.0"
+  }
+}
