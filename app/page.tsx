@@ -76,7 +76,7 @@ export default function Home() {
               <i className="ri-line-chart-line text-2xl text-primary-600"></i>
             </div>
             <h3 className="text-xl font-semibold text-secondary-900 mb-2">Suivi des Ventes</h3>
-            <p className="text-secondary-600">Suivez vos opportunités depuis le prospect jusqu'à la vente</p>
+            <p className="text-secondary-600">Suivez vos opportunités depuis le prospect jusqu&#39;à la vente</p>
           </div>
 
           <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow animate-slide-up">
@@ -126,7 +126,7 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-secondary-400">
-                <li><Link href="/aide" className="hover:text-white transition-colors">Centre d'aide</Link></li>
+                <li><Link href="/aide" className="hover:text-white transition-colors">Centre d&#39;aide</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                 <li><Link href="/documentation" className="hover:text-white transition-colors">Documentation</Link></li>
               </ul>

@@ -129,7 +129,7 @@ export default function Rapports() {
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-secondary-600">Chiffre d'affaires</p>
+                  <p className="text-sm font-medium text-secondary-600">Chiffre d&#39;affaires</p>
                   <p className="text-2xl font-bold text-secondary-900">€125,680</p>
                 </div>
                 <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
